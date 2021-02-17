@@ -1,10 +1,7 @@
 # Opdrachtbeschrijving
 
 ## Inleiding
-Je vrienden hebben er inmiddels lucht van gekregen dat je kunt programmeren en sindsdien wordt je 
-low key gestalkt met verzoekjes om webapplicaties te bouwen. Je vriend Constantijn wil heel graag
-dat je een applicatie voor hem maakt die feitjes over landen kan ophalen, zodat hij cool kan doen 
-met zijn wereldse kennis op borrels en verjaardagen.
+
 
 ![screenshot](./assets/screenshot.png)
 
@@ -13,21 +10,28 @@ kun je [hier](https://restcountries.eu/#api-endpoints-language) vinden.
 
 
 ## Plan de campagne
-1. Maak een 'Zoek'-knop op de pagina en koppel deze aan een functie die de gegevens over `België` ophaalt en dit in de console logt. 
-_Tip:_ Als de de [documentatie](https://www.npmjs.com/package/axios) bekijkt en op `async` zoekt, vindt je een voorbeeld van een GET-request.
-
-2. Maak op basis van de response de volgende string en log dit in de console: `[country-naam] is situated in [subarea-name]. It has a population of [amount] people.`
-3. Maak op basis van de response de volgende string en log dit in de console: `The capital is [city]`
-4. Maak een functie die ongeacht het aantal currencies die in een land gebruikt worden, een string maakt. In een land kunnen één of twee currencies gebruikt worden:
-    * 1 valuta: `and you can pay with [currency]'s`
-    * 2 valuta's: `and you can pay with [currency]'s and [currency]'s`
-5. Check of alles nog steeds werkt als je de gegevens over _Aruba_ of _Duitsland_ ophaalt!
+- [ ] Goed in de data kijken, waar zit deze info: -> loggen
+- [ ] variabele maken, en de currencies uit de data daaraan toekennen
+- [ ] functie maken -> formatCurrencies
+- [ ] aanroepen -> logje in de functie zetten om te checken
+- [ ] input: currencies, parameter(s) toevoegen, argument(en) meegeven
+- [ ] parameter loggen om te kijken of de input hebben
+- [ ] if
+- [ ] 1 currency -> `and you can pay with [currency]'s`
+- [ ] 2 currency -> `and you can pay with [currency]'s and [currency]'s`
+- [ ] return de waarde `and you can pay with [currency]'s and [currency]'s`
 6. _Bonusopdracht:_ Maak een functie die ongeacht het aantal talen die in een land gesproken worden, een string maakt:
-    * 1 taal: `They speak [language]`
-    * 2 talen: `They speak [language] and [language]` 
-    * 3 talen: `They speak [language], [language] and [language]`
-    * etc. 
+    
 7. Zorg ervoor dat de opgehaalde data op de volgende manier wordt toegevoegd aan de DOM:
+- Waar haal ik de data vandaan? --> Check deze door te loggen.
+- Voeg deze data toe aan een variabele.
+- functie maken, voeg nodige parameters toe, geef argumenten mee --> Log/check functie.
+- for-loop
+   * 1 taal: `They speak [language]`
+   * 2 talen: `They speak [language] and [language]`
+   * 3 talen: `They speak [language], [language] and [language]`
+   * etc.
+
 
 ```
 [IMAGE: flag]

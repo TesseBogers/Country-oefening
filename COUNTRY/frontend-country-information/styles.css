@@ -1,0 +1,74 @@
+
+ body {
+     height: 75vh;
+     background: url("travel.jpg");
+     background-size: 4000px 1500px;
+     display: flex;
+     align-items: flex-start;
+     justify-content: center;
+     font-weight: 350;
+
+ }
+ .container {
+     width: 800px;
+     height: 250px;
+     padding: 10px;
+     column-gap: 16px;
+     row-gap: 30px;
+ }
+ h1 {
+     font-family: 'Yanone Kaffeesatz', sans-serif;
+     font-size: 100px;
+     color: antiquewhite;
+
+ }
+ h2 {
+     font-family: 'Yanone Kaffeesatz', sans-serif;
+     font-size: 100px;
+     color: antiquewhite;
+ }
+ #search-bar {
+     width: 330px;
+     height: 80px;
+     box-sizing: border-box;
+     border-radius: 35px;
+     border-color: antiquewhite;
+     border-width: 10px;
+     font-size: 40px;
+     background-color: hsl(301, 88%, 92%);
+     color: black;
+     margin-left: 80px;
+     font-family: 'Yanone Kaffeesatz', sans-serif;
+ }
+ #search-button {
+     width: 200px;
+     height: 80px;
+     box-sizing: border-box;
+     border-radius: 35px;
+     border-color: antiquewhite;
+     border-width: 10px;
+     font-size: 40px;
+     background-color: hsl(301, 88%, 92%);
+     color: black;
+     margin-left: 50px;
+     font-family: 'Yanone Kaffeesatz', sans-serif;
+
+ }
+ img {
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     width: 200px;
+     border-radius: 15px;
+     margin-left: 250px;
+     margin-top: 50px;
+ }
+#countries {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+p {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    color: antiquewhite;
+}

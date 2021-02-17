@@ -4,12 +4,22 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="styles.css" type="text/css" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300;400&display=swap');
+    </style>
 </head>
+
 <body>
-<h1>What about this country:</h1>
-<input id="search-bar" type="text" placeholder="Search for country">
-<button id="search-button" type="submit"> Discover </button>
+<div class="container">
+    <h2>Let's go on an adventure</h2>
+    <input id="search-bar" type="text" placeholder="Enter destination">
+    <button id="search-button" type="submit"> Discover </button>
+    <p id="error-message"></p>
+    <div id="countries"></div>
+</div>
+
 </body>
+
 <script src="../node_modules/axios/dist/axios.min.js"></script>
 <script src="main.js"></script>
 </html>
